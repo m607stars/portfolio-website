@@ -1,0 +1,217 @@
+*, html{
+  margin: 0;
+  padding: 0;
+}
+
+#profile{
+  border-radius: 50%;
+  width: 20%;
+  margin: 5vh;
+  box-shadow: 0px 0px 10px 5px aliceblue;
+}
+
+#name{
+  font-family: Sans-serif;
+  font-size: 3vw;
+  margin: 20px;
+  color: aliceblue;
+}
+#about{
+  font-family: Sans-serif;
+  font-size: 1.5vw;
+  margin: 20px;
+  color: aliceblue;
+}
+
+#link1{
+  display: inline-block;
+  float: right;
+  width: 4%;
+  margin: 15px;
+}
+#link2{
+  display: inline-block;
+  float: right;
+  width: 4%;
+  margin: 15px;
+}
+#link3{
+  display: inline-block;
+  float: right;
+  width: 4%;
+  margin: 15px;
+}
+
+.topone{
+  background: url("Assets/background.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
+.education{
+  margin: 3vw;
+  margin-left: 5vw;
+  border: blue;
+  box-shadow: 0px 0px 10px 5px #808080;
+  display: inline-block;
+  float: left;
+  height: 45vh;
+  width: 40vw;
+}
+
+.experience{
+  margin: 3vw;
+  margin-right: 5vw;
+  border: blue;
+  box-shadow: 0px 0px 10px 5px #808080;
+  display: inline-block;
+  float: right;
+  height: 55vh;
+  width: 40vw;
+}
+
+.projects{
+  margin: 3vw;
+  margin-left: 5vw;
+  border: blue;
+  box-shadow: 0px 0px 10px 5px #808080;
+  display: inline-block;
+  float: left;
+  float: top;
+  height: 80vh;
+  width: 40vw;
+}
+
+.project_cards{
+  margin: 20px;
+  border: blue;
+  box-shadow: 0px 0px 5px 3px #808080;
+  display: inline-block;
+  float: left;
+  height: 30vh;
+  width: 17vw;
+}
+
+.project_headings{
+  font-family: Sans-serif;
+  font-size: 120%;
+  color: black;
+  margin: 25px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.programming{
+  margin: 3vw;
+  margin-right: 5vw;
+  border: blue;
+  box-shadow: 0px 0px 10px 5px #808080;
+  display: inline-block;
+  float: right;
+  position: relative;
+  height: 60vh;
+  width: 40vw;
+}
+
+.programming_languages{
+  font-family: Sans-serif;
+  font-size: 108%;
+  color: black;
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+.container {
+  width: 75%; 
+  background-color: #ddd; 
+  border-radius: 10px;
+  height:20px;
+  margin-left: 15px;
+}
+
+.skills {
+  text-align: right; 
+  color: white; 
+  height:20px;
+  border-radius: 10px;
+}
+
+.python {width: 80%; background-color:#2196F3;}
+.java {width: 60%; background-color: #2196F3;}
+.C {width: 75%; background-color:#2196F3;} 
+.go {width: 48%; background-color:#2196F3;}
+.frontend {width: 80%; background-color:#2196F3;}
+
+.skillset{
+  margin: 3vw;
+  margin-right: 5vw;
+  border: blue;
+  box-shadow: 0px 0px 10px 5px #808080;
+  display: inline-block;
+  float: right;
+  height: 45vh;
+  width: 40vw;
+}
+
+.blocks{
+  font-family: sans-serif;
+  /* border: ; */
+  margin: 20px;
+  font-size: 120%;
+}
+
+.hobbies{
+  margin: 3vw;
+  margin-left: 5vw;
+  border: blue;
+  box-shadow: 0px 0px 10px 5px #808080;
+  display: inline-block;
+  float: left;
+  height: 35vh;
+  width: 40vw;
+}
+
+.headings{
+  font-family: Sans-serif;
+  background: url("Assets/background.jpg");
+  color: aliceblue;
+  font-size: 150%;
+  padding: 10px;
+}
+
+.counts{
+  font-family: Sans-serif;
+  font-size: 120%;
+  color: black;
+  margin: 25px;
+  margin-bottom: 5px;
+}
+.info{
+  font-family: Sans-serif;
+  font-size: 98%;
+  color: black;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 1px;
+}
+
+.contact{
+  background: url(Assets/background.jpg);
+  display: inline-block;
+  width: 100vw;
+  height: 20vh;
+  padding: 20pxs;
+}
+
+.contact_ids{
+  font-family: Sans-serif;
+  font-size: 100%;
+  color: aliceblue;
+  margin: 15px; 
+}
+
+#location{
+  margin-bottom: 0px;
+}
