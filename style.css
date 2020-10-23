@@ -6,93 +6,68 @@
 #profile{
   border-radius: 50%;
   width: 20%;
-  margin: 5vh;
+  margin: 3%;
   box-shadow: 0px 0px 10px 5px aliceblue;
 }
 
 #name{
   font-family: Sans-serif;
   font-size: 3vw;
-  margin: 20px;
+  margin: 1%;
   color: aliceblue;
 }
 #about{
   font-family: Sans-serif;
   font-size: 1.5vw;
-  margin: 20px;
+  margin: 1%;
   color: aliceblue;
 }
 
-#link1{
+.link{
   display: inline-block;
   float: right;
   width: 4%;
-  margin: 15px;
+  margin: 1%;
 }
-#link2{
+
+#linkresume {
   display: inline-block;
   float: right;
-  width: 4%;
-  margin: 15px;
-}
-#link3{
-  display: inline-block;
-  float: right;
-  width: 4%;
-  margin: 15px;
+  /* width: 4vw; */
+  margin: 1%;
 }
 
 .topone{
   background: url("Assets/background.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
+  max-height: 30%;
 }
 
-.education{
-  margin: 3vw;
-  margin-left: 5vw;
-  border: blue;
-  box-shadow: 0px 0px 10px 5px #808080;
-  display: inline-block;
-  float: left;
-  height: 45vh;
-  width: 40vw;
+.talha_container{
+  display: table !important;
+  /* width: 100% !important; */
 }
 
-.experience{
-  margin: 3vw;
-  margin-right: 5vw;
-  border: blue;
-  box-shadow: 0px 0px 10px 5px #808080;
-  display: inline-block;
-  float: right;
-  height: 55vh;
-  width: 40vw;
+.chafekar_container{
+  display: table-cell !important;
+}
+.sections{
+  margin: 3vw !important;
+  /* margin-right: 5vw; */
+  border: blue !important;
+  box-shadow: 0px 0px 10px 5px #808080 !important;
+  /* display: table-cell !important; */
+  /* position: relative; */
 }
 
-.projects{
-  margin: 3vw;
-  margin-left: 5vw;
-  border: blue;
-  box-shadow: 0px 0px 10px 5px #808080;
-  display: inline-block;
-  float: left;
-  float: top;
-  height: 80vh;
-  width: 40vw;
+#project_card{
+  box-shadow: 0px 0px 1px 1px #808080;
+  /* margin:10%; */
+  margin-right: 5%;
+  /* padding: 10%; */
 }
-
-.project_cards{
-  margin: 20px;
-  border: blue;
-  box-shadow: 0px 0px 5px 3px #808080;
-  display: inline-block;
-  float: left;
-  height: 30vh;
-  width: 17vw;
-}
-
 .project_headings{
   font-family: Sans-serif;
   font-size: 120%;
@@ -102,16 +77,16 @@
   margin-bottom: 5px;
 }
 
-.programming{
-  margin: 3vw;
-  margin-right: 5vw;
-  border: blue;
-  box-shadow: 0px 0px 10px 5px #808080;
-  display: inline-block;
-  float: right;
-  position: relative;
-  height: 60vh;
-  width: 40vw;
+#project_card_title{
+  margin: 5%;
+  text-align: center;
+}
+#project_card_button{
+  margin: 5%;
+}
+.project_margin{
+  margin:2%;
+  margin-right: 4%;
 }
 
 .programming_languages{
@@ -122,36 +97,8 @@
   margin-bottom: 5px;
 }
 
-.container {
-  width: 75%; 
-  background-color: #ddd; 
-  border-radius: 10px;
-  height:20px;
-  margin-left: 15px;
-}
-
-.skills {
-  text-align: right; 
-  color: white; 
-  height:20px;
-  border-radius: 10px;
-}
-
-.python {width: 80%; background-color:#2196F3;}
-.java {width: 60%; background-color: #2196F3;}
-.C {width: 75%; background-color:#2196F3;} 
-.go {width: 48%; background-color:#2196F3;}
-.frontend {width: 80%; background-color:#2196F3;}
-
-.skillset{
-  margin: 3vw;
-  margin-right: 5vw;
-  border: blue;
-  box-shadow: 0px 0px 10px 5px #808080;
-  display: inline-block;
-  float: right;
-  height: 45vh;
-  width: 40vw;
+.mayankm{
+  margin: 5%
 }
 
 .blocks{
@@ -161,17 +108,9 @@
   font-size: 120%;
 }
 
-.hobbies{
-  margin: 3vw;
-  margin-left: 5vw;
-  border: blue;
-  box-shadow: 0px 0px 10px 5px #808080;
-  display: inline-block;
-  float: left;
-  height: 35vh;
-  width: 40vw;
+.m_sections{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .headings{
   font-family: Sans-serif;
   background: url("Assets/background.jpg");
@@ -197,21 +136,13 @@
   margin-top: 1px;
 }
 
-.contact{
-  background: url(Assets/background.jpg);
-  display: inline-block;
-  width: 100vw;
-  height: 20vh;
-  padding: 20pxs;
+footer{
+  margin-left:5%;
+  margin-right:5%;
 }
-
 .contact_ids{
-  font-family: Sans-serif;
-  font-size: 100%;
-  color: aliceblue;
-  margin: 15px; 
-}
-
-#location{
-  margin-bottom: 0px;
+  font-size: 80%;
+  color:#696969;
+  text-align: center; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
