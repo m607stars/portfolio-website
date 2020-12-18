@@ -26,9 +26,14 @@ function callfun(){
   }
 }
 
-// function my(){
-//   alert("Heelo");
-// }
+document.addEventListener("scroll", inView);
+function inView() {
+  if (document.getElementById("animated_progress_bar").getBoundingClientRect().bottom <= window.innerHeight) {
+    callfun(); 
+      // uncomment below if you only want it to notify once
+      document.removeEventListener("scroll", inView);
+  }
+}
 
 function projectlinkover(id){
   var elem = document.getElementById(id);
