@@ -74,6 +74,11 @@
   }
 }
 
+.linked_certis{
+  text-decoration: none !important;
+  color: black !important;
+}
+
 .topone{
   background: url("Assets/background.jpg") ;
   background-repeat: no-repeat;

@@ -2,8 +2,9 @@ var i = 0;
 function callfun(){
   move(80,'pythonjs');
   move(50,'javajs');
-  move(60,'Cjs');
+  move(70,'Cjs');
   move(60,'frontendjs');
+  move(30,'shelljs');
   move(20,'gojs');
   function move(max_width,name) {
     i = 1;
