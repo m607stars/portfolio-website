@@ -3,7 +3,7 @@ function callfun(){
   move(80,'pythonjs');
   move(50,'javajs');
   move(70,'Cjs');
-  move(60,'frontendjs');
+  move(75,'frontendjs');
   move(30,'shelljs');
   move(20,'gojs');
   function move(max_width,name) {
